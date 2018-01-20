@@ -1,0 +1,6 @@
+#!/bin/bash
+
+python specified_subject_move_to_fold_AD.py > specified_subject_move_to_fold_AD.txt
+python specified_subject_move_to_fold_NC.py > specified_subject_move_to_fold_NC.txt
+python specified_subject_get_slice_train_val_test_AD.py > specified_subject_get_slice_train_val_test_AD.txt
+python specified_subject_get_slice_train_val_test_NC.py > specified_subject_get_slice_train_val_test_NC.txt
